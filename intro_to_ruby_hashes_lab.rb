@@ -26,6 +26,7 @@ def monopoly_with_third_tier
 		:rent_in_dollars => {:one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owned => 200}
 		}
 	}
+	monopoly[:railroads][:reading_railroad] = "$100"
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 
 end
